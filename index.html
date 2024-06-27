@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visit Thailand</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="icon" type="image/svg" href="images/icons/sunset.svg">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav_logo">
+        <a href="#">
+          <h2>Thailand</h2>
+          <img src="images/icons/Logo.png" alt="Thailand Logo" />
+        </a>
+      </div>
+
+      <input type="checkbox" id="click" />
+      <label for="click">
+        <i class="menu_btn bx bx-menu"></i>
+        <i class="close_btn bx bx-x"></i>
+      </label>
+
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#explore">EXPLORE</a></li>
+        <li><a href="#plan-your-trip">PLAN YOUR TRIP</a></li>
+        <li><a href="#reviews">REVIEWS</a></li>
+        <li><a href="#blog">ARTICLES</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <div class="ad-banner superbanner" id="superbanner">
+      <button class="ad-close-btn" onclick="this.parentElement.style.display='none';">X</button>
+      <img src="images/Banner.png" alt="Add-Banner">
+    </div>
+  </header>
+
+  <main>
+    <div class="main-content">
+      <div class="hero">
+        <h1>Thailand</h1>
+        <h2>Land of smiles, vibrant culture, and breathtaking beauty</h2>
+        <div class="visit-now">
+          <button>Visit Now</button>
+        </div>
+      </div>
+
+      <div class="ad-banner halfpage-ad" id="halfpage">
+        <button class="ad-close-btn" onclick="this.parentElement.style.display='none';">X</button>
+        <img src="images/Half Page Ad.png" alt="Halfpage-Ad">
+      </div>
+    </div>
+
+    <section class="explore" id="explore">
+      <h2>EXPLORE</h2>
+      <p>Explore the different locations in Thailand</p>
+      <div class="cards">
+        <div class="card">
+          <img src="images/Phang-Nga-Bay-Phuket-Thailand.jpg" alt="Phuket">
+          <div class="card-info">
+            <h3>Phuket</h3>
+            <span class="rating">5.0 | 10 Ratings</span>
+            <p class="price">Form $90-$500 per night</p>
+            <p class="description">Paradise island where turquoise waters meet golden sands and vibrant nightlife</p>
+            <button>Visit Now</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/Krabi.webp" alt="Krabi">
+          <div class="card-info">
+            <h3>Krabi</h3>
+            <span class="rating">4.5 | 8 Ratings</span>
+            <p class="price">Form $70-$450 per night</p>
+            <p class="description">Nature's masterpiece of towering cliffs, emerald waters, and serene beaches.</p>
+            <button>Visit Now</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/44202281-city-56280-1767207b463.jpg" alt="Koh Samui">
+          <div class="card-info">
+            <h3>Koh Samui</h3>
+            <span class="rating">5.0 | 15 Ratings</span>
+            <p class="price">Form $100-$720 per night</p>
+            <p class="description">Tropical haven of palm-fringed beaches, lush jungles, and luxury resorts</p>
+            <button>Visit Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="fullscreen-container">
+      <div class="image-container">
+        <img src="images/tuck_tuck_temple.png" alt="Tuck Tuck next to a temple" id="tuck-tuck_pic">
+        <div class="quote">A place where ancient temples meet bustling cities, and serenity blends with excitement.</div>
+      </div>
+      <div class="image-container">
+        <img src="images/Boat_Limestones.png" alt="Thai-boat with limestones" id="boat_pic">
+        <div class="quote">"Thailand Where every smile tells a story, and every journey is an adventure."
+        </div>
+      </div>
+      <div class="image-container">
+        <img src="images/temple_night.png" alt="Temple by night" id="temple_pic">
+        <div class="quote">"Dive into a symphony of golden beaches, vibrant culture, and timeless traditions."
+        </div>
+      </div>
+
+      <div class="dot-container">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+
+    <section class="plan-your-trip-section" id="plan-your-trip">
+      <h2 class="plan-your-trip-headline">PLAN YOUR TRIP</h2>
+      <p>Everything you need to know for your next Thailand trip</p>
+      <div class="trip-options-container">
+        <div class="trip-option">
+          <img src="images/icons/Visa.svg" alt="Visa & Passport">
+          <h3>Visa & Passport</h3>
+        </div>
+        <div class="trip-option">
+          <img src="images/icons/Travel.svg" alt="Travel To Thailand">
+          <h3>Travel To Thailand</h3>
+        </div>
+        <div class="trip-option">
+          <img src="images/icons/Train.svg" alt="Getting Around">
+          <h3>Getting Around</h3>
+        </div>
+        <div class="trip-option">
+          <img src="images/icons/Weather.svg" alt="Weather">
+          <h3>Weather</h3>
+        </div>
+      </div>
+    </section>
+
+    <div class="client-reviews" id="reviews">
+      <h2>CLIENTS REVIEWS</h2>
+      <p>What our clients say about us</p>
+      <div class="review-container">
+        <div class="review-card">
+          <img src="images/Reviews/bench-1839699_640.jpg" alt="Tim Mayer">
+          <h3>Tim Mayer</h3>
+          <p class="location">Munich, DE</p>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="review-text">Exceptional service and seamless arrangements! The travel agency made our Thailand trip
+            unforgettable. Highly recommend for stress-free travel.</p>
+        </div>
+        <div class="review-card">
+          <img src="images/Reviews/asian-1850944_640.jpg" alt="Scarlet Liam">
+          <h3>Scarlet Wang</h3>
+          <p class="location">London, UK</p>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="review-text">Amazing trip to Bangkok! The vibrant markets and stunning temples were unforgettable.
+            Highly recommend visiting the Grand Palace and Wat Arun.</p>
+        </div>
+        <div class="review-card">
+          <img src="images/Reviews/cam-adams-imBSxksI7DA-unsplash.jpg" alt="Liam O'Connor">
+          <h3>Liam O'Connor</h3>
+          <p class="location">Dublin, IE</p>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="review-text">Fantastic experience! The travel agency organized everything perfectly. Great guides
+            and superb itinerary. Thailand was amazing thanks to them.</p>
+        </div>
+        <div class="review-card">
+          <img src="images/Reviews/stephanie-liverani-Zz5LQe-VSMY-unsplash.jpg" alt="Nina Petrovic">
+          <h3>Nina Petrovic</h3>
+          <p class="location">Belgrade, RS</p>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="review-text">Our Thailand trip was flawlessly planned and executed. Highly recommend for a
+            worry-free vacation.</p>
+        </div>
+        <div class="review-card">
+          <img src="images/Reviews/colton-sturgeon-odKeTFsBDgE-unsplash.jpg" alt="Jackie Tan">
+          <h3>Jackie Tan</h3>
+          <p class="location">Singapore, SG</p>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="review-text">Krabi was breathtaking! The limestone cliffs and Railay Beach are stunning. A boat trip
+            to the Phi Phi Islands is a must.</p>
+        </div>
+        <div class="review-card">
+          <img src="images/Reviews/photographer-407068_640.jpg" alt="Sofia Rossi">
+          <h3>Sofia Rossi</h3>
+          <p class="location">Rome, IT</p>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="review-text">Chiang Mai is a must-see! The night markets and historic temples, especially Wat Phra
+            Singh, were highlights of our visit.</p>
+        </div>
+        <div class="review-card">
+          <img src="images/Reviews/stefan-stefancik-QXevDflbl8A-unsplash.jpg" alt="Marie Dubois">
+          <h3>Marie Dubois</h3>
+          <p class="location">Lyon, FR</p>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="review-text">The serene Pai Canyon and hot springs were highlights. Perfect for nature lovers
+            looking for tranquility.</p>
+        </div>
+        <div class="review-card">
+          <img src="images/Reviews/lachlan-dempsey-6VPEOdpFNAs-unsplash.jpg" alt="Carlos Fernandez">
+          <h3>Carlos Fernandez</h3>
+          <p class="location">Valencia, ES</p>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="review-text">Wonderful time in Thailand! Exploring the ancient ruins and temples was an incredible
+            experience. So much history and beauty.</p>
+        </div>
+        <div class="review-card">
+          <img src="images/Reviews/vicky-hladynets-C8Ta0gwPbQg-unsplash.jpg" alt="Fabian Hirsch">
+          <h3>Fabian Hirsch</h3>
+          <p class="location">Franfurt, DE</p>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="review-text">Crystal-clear waters and vibrant culture made our trip unforgettable. So much to see
+            and do.</p>
+        </div>
+        <div class="review-card">
+          <img src="images/Reviews/pexels-nikki-williams-1761778-3334821.jpg" alt="Monirul Islam">
+          <h3>Nikki Williams</h3>
+          <p class="location">Los Angeles, US</p>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="review-text">Koh Samui was paradise! Beautiful beaches and lush landscapes. Highly recommend
+            visiting Chaweng Beach and the Ang Thong Marine Park.</p>
+        </div>
+      </div>
+    </div>
+
+    <section class="blog-section" id="blog">
+      <div class="blog-header">
+        <h2>ARTICLES AND BLOGS</h2>
+        <p>Always upto date with the latest Travel-ispirations</p>
+      </div>
+      <div class="blog-container">
+        <div class="blog-card">
+          <img src="images/tuctuc.jpeg" alt="tuc tuc">
+          <div class="content">
+            <h2 class="title">How to find your Desired Place more quickly</h2>
+            <div class="date">Posted By Sam Baker | March 2023</div>
+            <p class="description">How to quickly find domestic flights, car rentals, local transport options like
+              tuk-tuks and ferries, and tips for efficient travel planning in Thailand.</p>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <img src="images/thai-basil-2996229_640.jpg" alt="thai food">
+          <div class="content">
+            <h2 class="title">Best foodspots in Thailand you can't miss</h2>
+            <div class="date">Posted By Tamara Hopkins | February 2024</div>
+            <p class="description">Must-visit food spots in Thailand, featuring street food markets, renowned
+              restaurants, local eateries, and regional specialties.</p>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <img src="images/pexels-kayaartss-20889615.jpg" alt="Temple in Thailand">
+          <div class="content">
+            <h2 class="title">Must see temples and how to get there</h2>
+            <div class="date">Posted By Tim Schulz | October 2023</div>
+            <p class="description">Must-see temples in Thailand, including famous landmarks, hidden gems, and their
+              historical significance.</p>
+          </div>
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="read-more">Read More</button>
+      </div>
+    </section>
+
+    <button id="backToTop" style="display: none;">
+      <img src="/images/icons/arrow_upward_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="To the top"></button>
+
+    <section class="contact" id="contact">
+      <div class="contact-header">
+        <h2>Contact Us</h2>
+        <p>Have questions or need assistance? Contact us today and let us help make your travel dreams a reality!</p>
+      </div>
+      <div class="section_container">
+        <div class="contact_container">
+          <div class="contact_form">
+            <form action="#">
+              <div class="field">
+                <label for="Name">Full Name</label>
+                <input type="text" id="Name" placeholder="Your Name" required />
+              </div>
+              <div class="field">
+                <label for="email">Your Email</label>
+                <input type="text" id="email" placeholder="Your Email" required />
+              </div>
+              <div class="field">
+                <label for="number">Your Number</label>
+                <input type="number" id="number" placeholder="Your Contact Number" required />
+              </div>
+              <div class="field">
+                <label for="textarea">Your Massage</label>
+                <textarea name="textarea" id="textarea" placeholder="Your Message"></textarea>
+              </div>
+
+              <button class="button" id="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="section_container">
+      <div class="footer_section">
+        <div class="footer_logo">
+          <a href="index.html">
+            <h2>Thailand</h2>
+          </a>
+        </div>
+
+        <div class="useful_links">
+          <h3>Useful Links</h3>
+          <ul>
+            <li><a href="#explore">EXPLORE</a></li>
+            <li><a href="#plan-your-trip">PLAN YOUR TRIP</a></li>
+            <li><a href="#reviews">REVIEWS</a></li>
+            <li><a href="#blog">ARTICLES</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+
+        <div class="contact_us">
+          <h3>Contact</h3>
+          <ul>
+            <li>
+              <i class="bx bx-current-location"></i>
+              <span>Furtwangen, Germany</span>
+            </li>
+            <li>
+              <i class="bx bxs-phone-call"></i> <span>+49 12345678</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="follow_us">
+          <h3>Follow</h3>
+          <i class="bx bxl-facebook-circle"></i>
+          <i class="bx bxl-twitter"></i>
+          <i class="bx bxl-instagram-alt"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
