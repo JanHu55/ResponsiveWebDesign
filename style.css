@@ -1,6 +1,6 @@
 :root {
   --primary-color: #f90100;
-  --secondary-color: #F5A80E;
+  --secondary-color: #f5a80f;
   --dark-color: #252525;
   --secondary-dark-color: #333;
   --dark-gray-color: #666;
@@ -14,7 +14,7 @@ html {
   scroll-padding-top: 124px;
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Kanit', Arial, sans-serif;
   padding-top: 49px;
   box-sizing: border-box;
   width: 100%;
@@ -68,8 +68,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: var(--dark-color);
-  background-color: var(--primary-color);
+  background-color: #dc970e;
 }
 
 nav label {
@@ -130,6 +129,10 @@ h2 {
 
 .hero h2 {
   color: var(--white-color);
+}
+
+button {
+  font-weight: bold;
 }
 
 .visit-now button {
