@@ -30,7 +30,7 @@ header {
 
 nav {
   display: flex;
-  padding: 15px 0 15px 20px;
+  padding: 10px 0 15px 20px;
   justify-content: space-between;
   align-items: center;
   background-color: var(--secondary-color);
@@ -614,7 +614,7 @@ button {
   right: 0;
   cursor: pointer;
   font-size: 24px;
-  background: var(--primary-color);
+  background: var(--dark-gray-color);
   color: var(--white-color);
   border: none;
   border-radius: 30px;
@@ -906,6 +906,10 @@ footer {
 }
 
 @media (max-width: 768px) {
+  nav {
+    padding: 10px;
+  }
+  
   .hero {
     font-size: 90%;
   }
